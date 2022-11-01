@@ -524,6 +524,10 @@ span.icon-media {
        .section-2 .container .img-section-2 {
         width: 48%;
        }
+       .section-2 .img-section-2 h5 a{
+        font-size: 15px;
+
+       }
     .section-2 h2 {
         font-size: 30px; 
         padding-left: 5%;
@@ -776,18 +780,21 @@ section.section-3{
     width: 100%;
     text-align: center;
     padding: 20px;
-    transition: all .4s ease-in;
-    -webkit-transition: all .4s ease-in;
-    -moz-transition: all .4s ease-in;
-    -ms-transition: all .4s ease-in;
-    -o-transition: all .4s ease-in;
-  
-  }
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    visibility: hidden;
+    opacity: 0;
+}
   .popular .single-popular:hover .img-popular .add-card{
     bottom: 0;
     color: black;
-  
-  }
+    visibility: visible;
+    opacity: 1;
+    
+}
   .popular .single-popular .caption{
     text-align: center;
     margin-top: 7%;
@@ -825,6 +832,9 @@ section.section-3{
   }
   .popular .single-popular {
     width: 100%;
+  }
+  .popular .single-popular .caption a {
+    font-size: 20px;
   }
   }
 /* ################### end section-4 ################################### */
@@ -888,12 +898,16 @@ section.section-3{
        
     }
     .section-5:hover .icon-play{
+        background: white;
         transform: scale(1.2);
         -webkit-transform: scale(1.2);
         -moz-transform: scale(1.2);
         -ms-transform: scale(1.2);
         -o-transform: scale(1.2);
-}
+    }
+    .section-5:hover .icon-play i{
+        color: #f81f1f;
+    }
     
 .section-5 .next-video{
         background: url(./images/vidoe_more.webp);
@@ -987,6 +1001,9 @@ padding: 1rem 0;
     }
     .section-6 .watch-deails img{
         width: 100%;
+    }
+    .section-6 .watch-deails h2 {
+        font-size: 33px;
     }
     .section-6 .container {
         width: 90%;
